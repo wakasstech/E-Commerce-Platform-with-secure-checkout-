@@ -53,13 +53,21 @@ Cloudinary Account
 
 # Environment Variables
 Create a config.env file in the backend directory and add------
+
 MONGODB_URL=your_mongodb_url
+
 PORT=your_port
+
 JWT_SECRET_KEY=your_jwt_secret_key
+
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+
 CLOUDINARY_API_KEY=your_cloudinary_api_key
+
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
 STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
+
 QR_SECRET_KEY=your_qr_secret_key
 
 
