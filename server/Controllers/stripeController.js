@@ -15,8 +15,6 @@ const { JSDOM } = require('jsdom');
 app.use(cors()); 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.raw({ type: 'application/json' }));
-// const endpointSecret = 'we_1OMAsFKQiLOn1OUqeZtUV1mA';
-//const stripe = require('stripe')('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');
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const {User} = require("../modals/userModel.js");
 const Order = require('../modals/orderModel'); // Assuming you have an Order model
