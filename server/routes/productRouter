@@ -1,0 +1,20 @@
+const express = require('express');
+const router = express.Router();
+const {
+    createProduct,
+    getAllProducts,
+    getProductById,
+    updateProduct,
+    getTopRatedProducts,
+    getProductByCollection,
+    getProductByCategory
+} = require('../Controllers/productController');
+const {upload} = require('../MiddleWares/multer.middleware'); 
+router.post('/create-product', upload.single('image'), createProduct);
+router.get('/getAll', getAllProducts);
+router.get('/getbyid', getProductById);
+router.get('/topProduct', getTopRatedProducts);
+router.get('/getProductByCollection', getProductByCollection);
+router.get('/getProductByCategory', getProductByCategory);
+router.put('/update', upload.single('image'), updateProduct);
+module.exports = router;

@@ -1,0 +1,14 @@
+const express = require('express');
+const router = express.Router();
+const {upload} = require('../MiddleWares/multer.middleware'); 
+const emailController = require("../Controllers/emailController");
+const { getAllOrders, getUserOrders, createOrder,updateOrderWithAddress ,updateOrder,uploadPaymentReceipt} = require('../Controllers/orderController');
+router.get('/getAll', getAllOrders);
+router.get('/userOrders', getUserOrders);
+router.post('/create-order', createOrder);
+router.put('/update-order', updateOrderWithAddress);
+router.put('/update', updateOrder);
+router.put('/upload-receipt', upload.single('paymentReceipt'), uploadPaymentReceipt);
+router.post("/send_otp", emailController.sendotp);
+router.post("/submit_otp", emailController.submitotp);
+module.exports = router;

@@ -1,0 +1,46 @@
+                                          Roles and Permissions
+1. Super Admin
+Description: The super admin has the highest level of access and can perform any action on all resources.
+Permissions:
+•	Users: create Any, read Any, update Any, delete Any
+•	Category: create Any, read Any, update Any, delete Any
+•	Subcategory: create Any, read Any, update Any, delete Any
+•	Courses: create Any, read Any, update Any, delete Any
+•	Lectures: create Any, read Any, update Any, delete Any
+•	Videos: create Any, read Any, update Any, delete Any
+•	Enrollment: create Any, read Any, update Any, delete Any
+2. Admin
+Description: The admin can manage and update most of the content but cannot create or delete user accounts.
+Permissions:
+•	Category: read Any, update Any
+•	Subcategory: read Any, update Any
+•	Courses: read Any, update Any
+•	Lectures: read Any, update Any
+•	Videos: read Any, update Any
+•	Enrollment: read Any, update Any
+3. User
+Description: Regular users who can browse and enroll in courses, and complete lectures.
+Permissions:
+•	Courses: read Any, enroll
+•	Lectures: read Any, complete
+•	Enrollment: enroll, assign
+4. Student
+Description: Students primarily consume content, such as watching videos and completing lectures.
+Permissions:
+•	Videos: read Any
+•	Lectures: read Any, complete
+5. Teacher
+Description: Teachers can upload and update their own content, and create lectures.
+Permissions:
+•	Videos: upload Own, update Own, read Any
+•	Lectures: create Any, update Own, read Any
+Permission Actions
+•	Create Any: Can create a new resource of the specified type.
+•	Read Any: Can read any resource of the specified type.
+•	Update Any: Can update any resource of the specified type.
+•	Delete Any: Can delete any resource of the specified type.
+•	Enroll: Can enroll in courses.
+•	Complete: Can mark lectures as completed.
+•	Assign: Can assign enrollments.
+•	Upload Own: Can upload own content.
+•	Update Own: Can update own content.

@@ -1,0 +1,59 @@
+.ma {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  
+  .m1 {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  
+  .banner {
+    margin-bottom: 1rem;
+  }
+ 
+  
+  .colTtl {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .slick-dots li.slick-active button:before {
+    color:White !important;
+}
+
+.customer-review-slider  .slick-dots li.slick-active button:before {
+  color:#4A403A !important;
+}
+
+.customer-review-slider .slick-dots li button:before {
+  font-size: 10px;
+  color:#4A403A !important; /* Change color of active dot */
+}
+
+/* .slick-dots li.slick-active button:before hove {
+  color:White !important;
+  font-size: 20px;
+} */
+
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color:White !important; /* Change color of active dot */
+}
+
+
+
+
+  /* Customize slick dots */
+
+  
+  @media screen and (max-width: 320px) {
+    .banner {
+      display: none;
+    }
+  }
+
+
+  
+  
