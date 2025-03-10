@@ -1,5 +1,11 @@
 # E-Commerce-Platform-with-secure-checkout-
 This project is a fully-featured online shopping solution built with the MERN stack, integrating secure checkout and inventory management. It leverages Stripe for payment processing and employs Redux Toolkit for state management, ensuring a seamless and optimized shopping experience.
+# Constructed an online shopping solution with secure checkout and inventory management, boosting sales conversion rates by 25%.
+
+
+# DEMO VIDEO LINK
+https://res.cloudinary.com/dkle20hdb/video/upload/v1741639886/ecommerce_au9nz6.mp4
+![Image](https://github.com/user-attachments/assets/3c224d82-b0ad-4a0f-97ac-5a50e2edd153)
 
 # Features
 
