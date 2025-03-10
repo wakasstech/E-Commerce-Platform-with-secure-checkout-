@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.raw({ type: 'application/json' }));
 // const endpointSecret = 'we_1OMAsFKQiLOn1OUqeZtUV1mA';
 //const stripe = require('stripe')('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');
-const stripe = require('stripe')('sk_test_51ONV2iDFtRPRKo4NMXKF8kcY6zbFGNe8NWiNQMn4SfZHYpycBQXWftfU9XmArl4HcKNlNwz7BAWwDgFog8prxTKl00d4fgM9Qy');
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const {User} = require("../modals/userModel.js");
 const Order = require('../modals/orderModel'); // Assuming you have an Order model
 var ourUser;
