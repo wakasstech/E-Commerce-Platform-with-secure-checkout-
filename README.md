@@ -4,7 +4,8 @@ This project is a fully-featured online shopping solution built with the MERN st
 
 
 # DEMO VIDEO LINK
-https://res.cloudinary.com/dkle20hdb/video/upload/v1741639886/ecommerce_au9nz6.mp4
+# Click here: https://res.cloudinary.com/dkle20hdb/video/upload/v1741639886/ecommerce_au9nz6.mp4
+
 ![Image](https://github.com/user-attachments/assets/3c224d82-b0ad-4a0f-97ac-5a50e2edd153)
 
 # Features
